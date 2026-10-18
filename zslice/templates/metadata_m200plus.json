@@ -1,0 +1,39 @@
+{
+ "PrintId": "D35687B9-85F2-4811-B994-C578511E2925",
+ "ZCodexVersion": "2.0.0.0",
+ "SoftwareVersion": "3.7.0.0",
+ "MinFirmwareVersion": "2.6.0",
+ "PrinterModelEnumId": 24,
+ "PrinterName": "M200 Plus",
+ "Materials": [
+  {
+   "ExtruderType": "MAIN",
+   "Id": 10,
+   "Name": "Z-PLA",
+   "ShortName": null,
+   "Usage": 8225,
+   "UsageGrams": "23.00",
+   "Temperature": 210
+  }
+ ],
+ "HeatbedTemperature": 30,
+ "ChamberTemperature": -1,
+ "CommandCount": 41779,
+ "PrintTime": 5133,
+ "NozzleDiameter": 0.4,
+ "PrintBoundingBox": {
+  "MinX": 38000,
+  "MinY": 54999,
+  "MinZ": 260,
+  "MaxX": 160000,
+  "MaxY": 145000,
+  "MaxZ": 4222
+ },
+ "Guid": null,
+ "LayerThickness": 0.15,
+ "TotalMaterialVolumeUsed": 0.0,
+ "TotalMaterialWeightUsed": 0.0,
+ "TotalLayersCount": 25,
+ "Timestamp": "202610081053590359",
+ "ResinMetadata": null
+}

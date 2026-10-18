@@ -1,0 +1,11 @@
+[package]
+name = "zcodex2"
+version = "0.1.0"
+edition = "2021"
+description = "Reader/writer for Zortrax .zcodex2 print files (reverse-engineered from Z-Suite 3.7)"
+
+[dependencies]
+serde_json = { version = "1", features = ["preserve_order"] }
+flate2 = "1"
+thiserror = "2"
+zip = { version = "2", default-features = false, features = ["deflate"] }

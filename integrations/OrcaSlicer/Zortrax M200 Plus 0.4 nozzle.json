@@ -1,0 +1,23 @@
+{
+    "type": "machine",
+    "name": "Zortrax M200 Plus 0.4 nozzle",
+    "from": "User",
+    "instantiation": "true",
+    "inherits": "",
+    "printer_technology": "FFF",
+    "gcode_flavor": "marlin",
+    "printable_area": ["0x0", "200x0", "200x200", "0x200"],
+    "printable_height": "180",
+    "nozzle_diameter": ["0.4"],
+    "printer_variant": "0.4",
+    "retraction_length": ["0.8"],
+    "retraction_speed": ["60"],
+    "deretraction_speed": ["60"],
+    "z_hop": ["0.4"],
+    "retract_before_wipe": ["0%"],
+    "use_relative_e_distances": "0",
+    "use_firmware_retraction": "0",
+    "machine_start_gcode": "M140 S[first_layer_bed_temperature]\nM104 S[first_layer_temperature]\nG28\nM190 S[first_layer_bed_temperature]\nM109 S[first_layer_temperature]\nG90\nM82\nG92 E0",
+    "machine_end_gcode": "M104 S0\nM140 S0\nG91\nG1 Z10 F600\nG90\nG28 X Y\nM84",
+    "printer_notes": "Zortrax M200 Plus - profil pour le convertisseur ztool (.zcodex2). Non testé dans OrcaSlicer."
+}

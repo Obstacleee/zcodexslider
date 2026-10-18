@@ -1,0 +1,8 @@
+target/
+*.exe
+*.zcodex2
+*.zprojx
+*.zproj
+*.stl
+*.STL
+zproj-studio/exemples/

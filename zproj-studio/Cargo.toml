@@ -1,0 +1,20 @@
+[package]
+name = "zproj-studio"
+version = "0.1.0"
+edition = "2021"
+description = "Import STL files, preview them and export a Z-Suite .zprojx project"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "zproj-studio"
+path = "src/main.rs"
+
+[dependencies]
+zcodex2 = { path = "../zcodex2" }
+zslice = { path = "../zslice" }
+serde_json = "1"
+eframe = "0.37"
+rfd = "0.17"
+png = "0.18"

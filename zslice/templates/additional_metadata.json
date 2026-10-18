@@ -1,0 +1,17 @@
+{
+ "Name": "AdditionalMetadata",
+ "Layers": null,
+ "MaterialUsages": [
+  {
+   "Percentage": 0,
+   "UsageGrams": "0.00",
+   "SupportUsage": "0.00"
+  },
+  {
+   "Percentage": 0,
+   "UsageGrams": "0.05",
+   "SupportUsage": "0.00"
+  }
+ ],
+ "Pauses": []
+}
